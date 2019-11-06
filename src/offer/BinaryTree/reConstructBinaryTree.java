@@ -60,7 +60,35 @@ public class reConstructBinaryTree {
         return root;
     }
 
+    //层序 + 中序 ==》重建
+    //利用层序来找到子树的顶节点（层序中最靠前的结点），利用中序通过顶节点来划分得到顶节点的左右子树
+    private TreeNode reConstructInLevel(int[] level,int levelStart,int levelEnd,int[] in,int inStart,int inEnd){
+        if(levelStart>levelEnd | inStart>inEnd)
+            return null;
+        TreeNode root = null ;
+        int i,j;
+        boolean f;
+        for (i=levelStart;i<=levelEnd;i++){
+            f = false;
+            for (j=inStart;j<=inEnd;j++){
+                if (level[i] == in[j]){
+                    f = true;
+                    break;
+                }
+            }
+            if (f){
+                root = new TreeNode(level[i]);
+                root.left = reConstructInLevel(level,levelStart,levelEnd,in,inStart,j-1);
+                root.right = reConstructInLevel(level,levelStart,levelEnd,in,j+1,inEnd);
+                break;
+            }
+        }
+        return root;
+    }
+
+
 }
+
 /*
 输入：前序、中序
 1 2 4 7 3 5 6 8

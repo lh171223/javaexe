@@ -6,12 +6,12 @@ public class test {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String[] s1 = sc.nextLine().split(" ");
-        String[] s2 = sc.nextLine().split(" ");
         int[] pre = new int[s1.length];
-        int[] in = new int[s2.length];
         for(int i=0;i<pre.length;i++){
             pre[i] = Integer.valueOf(s1[i]);
         }
+        String[] s2 = sc.nextLine().split(" ");
+        int[] in = new int[s2.length];
         for(int i=0;i<in.length;i++){
             in[i] = Integer.valueOf(s2[i]);
         }
