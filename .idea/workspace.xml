@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d9282b-2695-455b-acd5-a5b40035f655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BinTreeMirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/MatrixArray/matrixBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/MatrixArray/matrixClockwisePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/MatrixArray/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/search/binarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/search/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaexe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaexe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/didi/laji.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/didi/laji.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/didi/luanma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/didi/luanma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lexin/parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/lexin/parse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meituan/paizhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/meituan/paizhao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/Super.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/Super.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/bytetest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/bytetest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/javatest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/javatest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/javatest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/javatest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oneplus/oc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/oneplus/oc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tengxun/fenzu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/tengxun/fenzu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tengxun/niuniu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/tengxun/niuniu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tengxun/qie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/tengxun/qie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tengxun/toototoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/tengxun/toototoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wuba/juzhen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/wuba/juzhen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wuba/shuzufind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/wuba/shuzufind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xiecheng/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/xiecheng/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xiecheng/ip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/xiecheng/ip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xiecheng/tulun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/xiecheng/tulun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,41 +34,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="351">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/matrixBinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-749">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/matrixClockwisePrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/search/binarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,17 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/offer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/search/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="324">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2045" />
-    <option name="y" value="-11" />
-    <option name="width" value="1824" />
-    <option name="height" value="1100" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -216,44 +147,18 @@
               <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="BinaryTree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="MatrixArray" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573050105347" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573114527626" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -515,7 +420,6 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.matrixBinarySearch" />
         <item itemvalue="Application.test (2)" />
-        <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -548,12 +452,13 @@
       <workItem from="1572527326041" duration="4743000" />
       <workItem from="1572569373511" duration="16201000" />
       <workItem from="1572933175148" duration="5768000" />
-      <workItem from="1573003175211" duration="24033000" />
+      <workItem from="1573003175211" duration="24288000" />
+      <workItem from="1573088479321" duration="9291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117834000" />
+    <option name="totallyTimeSpent" value="127380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,10 +470,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21341956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08155651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -577,15 +482,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.15097691" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.13232104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.15097691" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.5339926" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.34815618" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.4067245" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.40497336" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946696" weight="0.5115453" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -911,51 +816,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/search/test.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="351">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/matrixBinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
+        <state relative-caret-position="270">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/matrixClockwisePrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/MatrixArray/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/search/binarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="459">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/softwares/cs/java/jdk/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/search/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="324">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
