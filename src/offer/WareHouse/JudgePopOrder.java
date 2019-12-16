@@ -4,7 +4,8 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Stack;
 
-/* https://www.nowcoder.com/profile/9067475/codeBookDetail?submissionId=18693161
+/*
+https://www.nowcoder.com/profile/9067475/codeBookDetail?submissionId=18693161
 输入两个整数序列，第一个序列表示栈的压入顺序，请判断第二个序列是否可能为该栈的弹出顺序。
 假设压入栈的所有数字均不相等
  */
@@ -35,9 +36,9 @@ public class JudgePopOrder {
         int popindex = 0;
         for (int i=0;i<pushA.length;i++){
             stack.push(pushA[i]);
-            while (!stack.empty() && stack.peek() == popA[popindex]){//必须是while 保证连续输出相等的栈顶元素
+            while (!stack.empty() && stack.peek() == popA[popindex]){//不相等时继续压栈；相等时出栈，并出栈顺序向后移动一位
                 stack.pop();
-                popindex++;
+                popindex++;//出栈顺序popA
             }//当不相等时且i以全部入栈完后，跳出循环的此时还有未成功匹配的元素在栈中
         }
         return stack.empty();//未成功匹配则不为空返回false

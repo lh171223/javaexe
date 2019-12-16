@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d9282b-2695-455b-acd5-a5b40035f655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/Median.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/WareHouse/MatchBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/WareHouse/SimpleExpreCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/WareHouse/WareDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/WareHouse/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/offer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/WareHouse/SimpleExpreCompute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/WareHouse/SimpleExpreCompute.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +37,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="459">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +49,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            <state relative-caret-position="378">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="243">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/SimpleExpreCompute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="324">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/MatchBracket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -144,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/offer/test.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/SumTree.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/DifferPost.java" />
-        <option value="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/BinTreeMirror.java" />
         <option value="$PROJECT_DIR$/src/offer/matrixClockwisePrint.java" />
@@ -159,72 +170,58 @@
         <option value="$PROJECT_DIR$/src/offer/WareHouse/test.java" />
         <option value="$PROJECT_DIR$/src/offer/WareHouse/WareDefinition.java" />
         <option value="$PROJECT_DIR$/src/offer/WareHouse/MatchBracket.java" />
-        <option value="$PROJECT_DIR$/src/offer/Main.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/test.java" />
-        <option value="$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java" />
         <option value="$PROJECT_DIR$/src/offer/WareHouse/SimpleExpreCompute.java" />
+        <option value="$PROJECT_DIR$/src/offer/Main.java" />
+        <option value="$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java" />
+        <option value="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2106" />
-    <option name="y" value="25" />
-    <option name="width" value="1937" />
+    <option name="x" value="-2099" />
+    <option name="y" value="-5" />
+    <option name="width" value="2103" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="BinaryTree" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="MatrixArray" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="search" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javaexe" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="WareHouse" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573210591271" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574574064652" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -545,12 +542,21 @@
       <workItem from="1572933175148" duration="5768000" />
       <workItem from="1573003175211" duration="24288000" />
       <workItem from="1573088479321" duration="9291000" />
-      <workItem from="1573174582124" duration="17897000" />
+      <workItem from="1573174582124" duration="18350000" />
+      <workItem from="1573262904992" duration="7481000" />
+      <workItem from="1573456321599" duration="7385000" />
+      <workItem from="1573522310443" duration="5324000" />
+      <workItem from="1573980271666" duration="1582000" />
+      <workItem from="1574038482335" duration="138000" />
+      <workItem from="1574301354826" duration="4902000" />
+      <workItem from="1574571994603" duration="2234000" />
+      <workItem from="1574646202078" duration="1723000" />
+      <workItem from="1576480978887" duration="7564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145277000" />
+    <option name="totallyTimeSpent" value="184063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +571,7 @@
     <frame x="-1927" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1956346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13662086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,12 +580,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.23318872" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.13676731" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.34815618" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.40497336" />
@@ -847,16 +853,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/DifferPost.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2862">
-          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -973,27 +969,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        <state relative-caret-position="459">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1002,15 +981,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/MatchBracket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="54">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/SimpleExpreCompute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="324">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/WareHouse/JudgePopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

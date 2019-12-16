@@ -145,6 +145,7 @@ public class TraverseBinTree {
     子节点入队后，根节点出队
     则子节点成为现存的根节点，其子节点入队，再根节点出队，循环往复，实现了按层遍历每个节点（每层的根节点）
      */
+    //带返回值的参考代码:https://blog.csdn.net/seagal890/article/details/79772657(注意为null时的返回值)
     public static void levelOrder(TreeNode node){
         if (node==null) {
             return;
