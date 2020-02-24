@@ -121,7 +121,7 @@ public class TraverseBinTree {
 
     /*
 前序+后序：后序遍历的输出顺序是左、右、根，当我们采用先序遍历的方法，
-但是先遍历右子树，实现的效果是根、右、左，刚好和后序遍历的结果想法，
+但是先遍历右子树，实现的效果是根、右、左，刚好和后序遍历的结果相反，
 所以我们通过add(0, node)的方式将顺序反序，达到我们想要的效果。
  */
     public static void postOrder(TreeNode node){

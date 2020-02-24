@@ -18,6 +18,7 @@ public class test {
         System.out.println("pre:" + Arrays.toString(pre));
         System.out.println("in:" + Arrays.toString(in));
 
+
         //重建二叉树 reConstructBinaryTree.class
         reConstructBinaryTree root = new reConstructBinaryTree();
         TreeNode treeNode = root.ConstructBinaryTree(pre,in);
@@ -28,6 +29,10 @@ public class test {
         SumTree.BinaryToSumTree(treeNode);
         //遍历输出
         TraverseBinTree.inTraverseBinTree(treeNode);
+
+
+        //路径求和
+
 
     }
 
