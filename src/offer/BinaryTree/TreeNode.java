@@ -19,7 +19,9 @@ public class TreeNode {
      int val;
      TreeNode left;
      TreeNode right;
+
+     TreeNode(int val) { this.val = val; }
+
      int sum;//左右子树之和
-     TreeNode(int x) { val = x; }
 
 }

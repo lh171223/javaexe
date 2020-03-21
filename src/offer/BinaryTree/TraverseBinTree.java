@@ -103,6 +103,8 @@ public class TraverseBinTree {
     }
 /*
 从根节点一次将左节点入栈，当没有左结点的时候，弹出栈顶元素，并将其右结点入栈
+
+先遍历左子树的左节点，再依次弹出该左节点并考虑其右节点；左子树全部左右结点判断完成后，压入右子树中的所有左节点，再同左子树一样去判断右子树中的所有右节点
  */
     public static void inOrder(TreeNode node){
         Stack<TreeNode> stack = new Stack<>();
@@ -114,7 +116,7 @@ public class TraverseBinTree {
             if (!stack.empty()){
                 node = stack.pop();
                 System.out.print(node.val+" ");
-                node = node.right;
+                node = node.right; //当node是叶子结点时，node==null（所有该结点没有右节点时会为空，然后继续等待弹出下一个结点再又判断其右节点）
             }
         }
     }
