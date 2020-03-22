@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d9282b-2695-455b-acd5-a5b40035f655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BinSearchLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/LinkedList/ListCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/LinkedList/RandomListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#206#207#0" expanded="true" />
@@ -55,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="1458">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,13 +59,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+            <state relative-caret-position="1134">
+              <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#printListFromTailToHead#0;class#LinkedListNode#0" />
-                <element signature="method#printListFromTailToHead#0;class#LinkedListNode#0" />
-                <element signature="e#385#394#0" expanded="true" />
                 <element signature="method#FindKthToTail#0;class#LinkedListNode#0" />
                 <element signature="method#FindFirstCommonNode#0;class#LinkedListNode#0" />
                 <element signature="method#EntryNodeOfLoop#0;class#LinkedListNode#0" />
@@ -163,9 +153,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1064" />
+    <option name="x" value="639" />
+    <option name="y" value="31" />
+    <option name="width" value="1065" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -174,7 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,13 +201,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584804161308" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584804219452" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -534,12 +524,13 @@
       <workItem from="1584277620301" duration="1844000" />
       <workItem from="1584324097602" duration="93000" />
       <workItem from="1584695923843" duration="1507000" />
-      <workItem from="1584756421858" duration="33513000" />
+      <workItem from="1584756421858" duration="33812000" />
+      <workItem from="1584838307520" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263942000" />
+    <option name="totallyTimeSpent" value="265518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,7 +545,7 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16814874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -568,12 +559,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.6305506" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.63018245" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012126" side_tool="true" weight="0.4884547" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.40497336" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4987874" weight="0.049751244" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4987874" weight="0.5986733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1004,7 +995,7 @@
     <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
@@ -1014,8 +1005,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        <state relative-caret-position="1458">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1024,13 +1015,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        <state relative-caret-position="1134">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#printListFromTailToHead#0;class#LinkedListNode#0" />
-            <element signature="method#printListFromTailToHead#0;class#LinkedListNode#0" />
-            <element signature="e#385#394#0" expanded="true" />
             <element signature="method#FindKthToTail#0;class#LinkedListNode#0" />
             <element signature="method#FindFirstCommonNode#0;class#LinkedListNode#0" />
             <element signature="method#EntryNodeOfLoop#0;class#LinkedListNode#0" />

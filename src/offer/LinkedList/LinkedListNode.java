@@ -106,26 +106,35 @@ public class LinkedListNode {
     输入两个单调递增的链表，输出两个链表合成后的链表，
     当然我们需要合成后的链表满足单调不减规则。
     解题：
-    归并排序？？
-    直接往一个链表中插入另一个链表，通过比较数值大小
+    直接两两比较两个链表的结点值；新创建一个链表，较小值的list将插入到新链表中
+    特殊情况：其中一个list为空，直接返回另一个list；
+    均不为空，但长度不同，当遍历完较短的链表后，将另一链表剩下结点全部直接插入新链表
      */
     public ListNode Merge(ListNode list1,ListNode list2) {
         if (list1 == null)
             return list2;
         if (list2 == null)
             return list1;
-        ListNode p1 = list1;
-        ListNode p2 = list2;
-        while (p1 != null && p2 != null){
-            if (p1.val <= p2.val){
-                p2.next = p1.next;
-                p1.next = p2;
+        //新建链表并初始化
+        ListNode newList = new ListNode(-1);
+        ListNode list = newList;
+        while (list1 != null && list2 != null){
+            if (list1.val <= list2.val){
+                list.next = list1;
+                list1 = list1.next;
             }else {
-
+                list.next = list2;
+                list2 = list2.next;
             }
-            p2 = p2.next;
-            p1 = p1.next;
+            list = list.next;//勿忘此行 需要往后移至最尾部，以便连接下一插入结点
         }
+        //当较短的一个链表遍历完结后
+        if (list1 == null)
+            list.next = list2;//直接将所有的剩余结点插入至新链表
+        if (list2 == null)
+            list.next = list1;
+        return newList;//返回整个链表
+//        return newList.next;//返回链表的头节点
     }
 
     /*
