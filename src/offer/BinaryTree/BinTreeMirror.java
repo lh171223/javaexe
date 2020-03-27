@@ -3,7 +3,7 @@ package offer.BinaryTree;
 import java.util.Stack;
 
 /*
-二叉树镜像：操作给定的二叉树，将其变换为源二叉树的镜像
+《二叉树镜像》：操作给定的二叉树，将其变换为源二叉树的镜像
 参考：https://blog.csdn.net/xiaoxingxing1744/article/details/82782461
  */
 public class BinTreeMirror {
