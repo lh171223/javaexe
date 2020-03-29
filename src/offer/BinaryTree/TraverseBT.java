@@ -3,8 +3,10 @@ package offer.BinaryTree;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
-public class TraverseBinTree {
+/*
+遍历二叉树
+ */
+public class TraverseBT {
 
     //将二叉树先序遍历，用于测试结果 “根左右”
     public static void preTraverseBinTree(TreeNode node){
@@ -28,8 +30,8 @@ public class TraverseBinTree {
         if (node.left!=null) {
             inTraverseBinTree(node.left);
         }
-//        System.out.print(node.val+",");
-        System.out.print(node.sum+" ");//求和树
+        System.out.print(node.val+",");
+//        System.out.print(node.sum+" ");//求和树
         if(node.right!=null){
             inTraverseBinTree(node.right);
         }
@@ -49,7 +51,7 @@ public class TraverseBinTree {
         System.out.print(node.val+" ");
     }
 
-    //将二叉树后序遍历，用于测试结果 “左右根”
+    //将二叉树层次遍历
     public static void levelTraverseBinTree(TreeNode node){
         if (node==null) {
             return;
@@ -71,6 +73,7 @@ public class TraverseBinTree {
         //右子树
         levelTraverseBinTree(node.right,level-1);
     }
+
     private static int depthTree(TreeNode node){ //计算二叉树的深度
         if (node == null)
             return 0;
@@ -154,8 +157,8 @@ public class TraverseBinTree {
         }
         Queue<TreeNode> queue = new LinkedList<TreeNode>();//java中队列（Queue）的用法：LinkedList类实现了Queue接口，因此我们可以把LinkedList当成Queue来用
         queue.offer(node);
-        while (!queue.isEmpty()){
-            TreeNode temp = queue.poll();//不推荐用add()和remove()
+        while (!queue.isEmpty()){ //当不再有当前根节点（即最后一个弹出的根节点没有左右子节点）时退出循环
+            TreeNode temp = queue.poll();//不推荐用add()和remove() -- 依次弹出当前根节点
             System.out.print(temp.val+" ");
             if(temp.left != null)
                 queue.offer(temp.left);

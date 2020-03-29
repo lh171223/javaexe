@@ -7,7 +7,7 @@ import java.util.*;
  * @version 1.0
  * @date 2020/3/22 22:39
  *
- * 字符串的排列
+ * 【一】字符串的排列
  *
  */
 public class CharacStrSort {

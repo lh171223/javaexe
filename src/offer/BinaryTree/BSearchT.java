@@ -4,6 +4,12 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 /**
+ * 二叉搜索树
+ * 特性：主要强调结点值
+ * 1、若它的左子树不为空，则左子树上所有节点的值都小于根节点的值
+ * 2、若它的右子树不为空，则右子树上所有节点的值都大于根节点的值
+ * 3、它的左右子树也分别为二叉搜索树
+ *
  * @author lh
  * @version 1.0
  * @date 2020/3/21 16:38
@@ -14,10 +20,6 @@ import java.util.Stack;
  * 要求不能创建任何新的结点，只能调整树中结点指针的指向。
  */
 /*
-二叉搜索树特性：
-1、若它的左子树不为空，则左子树上所有节点的值都小于根节点的值
-2、若它的右子树不为空，则右子树上所有节点的值都大于根节点的值
-3、它的左右子树也分别为二叉搜索树
 
 解题思路：
 二叉搜索树中序遍历后是一个递增的序列（中序遍历非递归方法借助栈）
@@ -26,7 +28,7 @@ import java.util.Stack;
 双向链表怎么编程实现双向指向？？？ ---  创建一个前结点：找到第一个（最小的）结点，将其作为前结点
 修改当前遍历结点与前一遍历结点的指针指向
  */
-public class BinSearchLinkList {
+public class BSearchT {
     public TreeNode Convert(TreeNode pRootOfTree) {
         if (pRootOfTree == null)
             return null;

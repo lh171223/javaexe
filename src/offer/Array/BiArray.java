@@ -1,8 +1,4 @@
 package offer.Array;
-
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
-
-import java.sql.Array;
 import java.util.*;
 
 /**
@@ -10,169 +6,88 @@ import java.util.*;
  * @version 1.0
  * @date 2020/3/22 12:49
  *
- * 【一】二维数组的查找
- * 【二】旋转数组的最小数字  ---complex---
- * 【三】数组中出现次数超过一半的数字   ---simple---
- * 【四】最小的K个数  --simple--
+ * 【一】和为S的两个数字
+ * 【二】
+ * 【三】
+ * 【四】
  * 【五】连续子数组的最大和  ---simple---
  * 【六】把数组排成最小的数  --complex---
+ * 【七】和为S的连续正数序列  --simple complex-- tcp滑动窗口的应用
  *
  */
 public class BiArray {
 
     /*
-    【一】二维数组的查找
-    在一个二维数组中（每个一维数组的长度相同），
-    每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。
-    请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
-     */
-    public boolean Find(int target, int [][] array) {
-        if (array == null)
-            return false;
-        for (int i=0;i<array.length;i++){
-            for (int j=0;j<array[i].length;j++){
-                if (array[i][j] > target) //仅此步因为有序而考虑了优化
-                    break;
-                if (array[i][j] == target)
-                    return true;
-            }
-        }
-        return false;
-    }
-    /*
-    矩阵有序，从左下角来看，向上数字递减，向右数字递增
-    因此从左下角开始查找，当要查找数字比左下角数字大时，右移
-    要查找数字比左下角数字小时，上移
-     */
-    public boolean Find1(int target, int [][] array) {
-        if (array == null)
-            return false;
-        int i,j;
-        for (i=array.length-1,j=0;i>=0 && j<array[0].length;){
-            if (target == array[i][j])
-                return true;
-            if (target < array[i][j]){
-                i--;
-                continue;
-            }
-            if (target > array[i][j]){
-                j++;
-            }
-        }
-        return false;
-    }
-
-    public boolean Find2(int target, int [][] array) {
-        if (array == null)
-            return false;
-        boolean flag = false;
-        int row = array.length;
-        int column = array[0].length;
-        int i = 0;
-        int j = column-1;
-        while (i<row && j>=0){
-            int val = array[i][j];
-            if (target>val)
-                i++;
-            else
-                if (target < val)
-                    j--;
-                else {
-                    flag = true;
-                    break;
-                }
-        }
-        return flag;
-    }
-
-    /*
-    【二】旋转数组的最小数字 ---complex---
-    把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
-    输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。
-    例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
-    NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
-
-    解题：二分查找
-     */
-    public int minNumberInRotateArray(int [] array) {
-        if (array.length == 0)
-            return 0;
-        int l = 0;
-        int r = array.length - 1;
-        while (l < r){
-            int m = (l+r)/2;
-            if (array[l] > array[m]){
-                r = m;
-                continue;
-            }
-            l = m+1;
-            if (array[l] < array[r])
-                break;
-        }
-        return array[l];
-    }
-
-    /*
-    【三】数组中出现次数超过一半的数字  ---simple---
-    数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。
-    例如输入一个长度为9的数组{1,2,3,2,2,2,5,4,2}。
-    由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。
-    如果不存在则输出0。
-     */
-
-    public static int MoreThanHalfNum(int [] array) {
-        if (array == null){
-            return 0;
-        }
-        for (int i=0;i<array.length;i++){
-            int count=0;//计算每个数字出现的次数
-            for (int j =0 ;j<array.length;j++){
-                if (array[i] == array[j]){
-                    count++;
-                    if (count>(array.length)/2)
-                        return array[i];//因为一个数超过一半后，必不存在第二个数超过一半，当出现该数时直接返回即可
-                    if (count+array.length-j < (array.length)/2)
-                        return 0;
-                }
-            }
-        }
-        return 0;
-    }
-
-    /*
-    思路二：数组排序后，若有符合条件的数存在，则必定是数组中间的那个数
-     */
-    public static int MoreThanHalfNum1(int [] array) {
-        if (array == null){
-            return 0;
-        }
-        Arrays.sort(array);//排序
-        int mid = (array.length)/2;
-        int count=0;
-        for (int i=0;i<array.length;i++){
-            if (array[i] == array[mid])
-                count++;
-        }
-        if (count>(array.length)/2)
-            return array[mid];
-        else
-            return 0;
-    }
-
-    /*
-    【四】最小的K个数  --simple--
-    输入n个整数，找出其中最小的K个数。
-    例如输入4,5,1,6,2,7,3,8这8个数字，则最小的4个数字是1,2,3,4,。
-     */
-    public static ArrayList<Integer> GetLeastNumbers(int [] input, int k) {
+    【一】和为S的两个数字
+    输入一个递增排序的数组和一个数字S，在数组中查找两个数，使得他们的和正好是S，
+    如果有多对数字的和等于S，输出两个数的乘积最小的。
+    输出描述：对应每个测试案例，输出两个数，小的先输出。
+    思路：注意“递增排序”
+    */
+    //思路一：最笨方法，直接穷举
+    public static ArrayList<Integer> FindNumbersWithSum(int [] array,int sum) {
         ArrayList<Integer> arrayList = new ArrayList<>();
-        if (input.length ==0 || k==0 || k>input.length)//注意需要考虑数组长度与K大小问题
-            return arrayList;
-        Arrays.sort(input);
-        for (int i=0;i<k;i++)
-            arrayList.add(input[i]);
+        if (array.length == 0)
+            return arrayList;//注意不能返回空
+        int multiply = 0;
+        for (int i=0;i<array.length;i++){
+            for (int j=i+1;j<array.length;j++){
+                if (array[i] + array[j] == sum && arrayList.size() == 0){//初次
+                    arrayList.add(array[i]);
+                    arrayList.add(array[j]);
+                    multiply = array[i]*array[j];
+                }
+                if (array[i]+array[j] == sum &&  array[i]*array[j]<multiply && arrayList.size() != 0){//多次
+                    arrayList.clear();
+                    arrayList.add(array[i]);
+                    arrayList.add(array[j]);
+                    multiply = array[i]*array[j];
+                }
+            }
+        }
         return arrayList;
     }
+
+    /*思路二
+    ①数列满足递增，设两个头尾两个指针i和j，
+    若ai + aj == sum，就是答案（相差越远乘积越小）
+    若ai + aj > sum，aj肯定不是答案之一（前面已得出 i 前面的数已是不可能），j -= 1
+    若ai + aj < sum，ai肯定不是答案之一（前面已得出 j 后面的数已是不可能），i += 1
+    ②数学问题：可以证明得出当x+y=sum,x*y的最小值时，相差最大（第一组）的两个数即是乘积最小的
+    (二元函数问题，设相差间隔为d，即是y-x=d，假设y>=x，集合x+y=C，可以得出x*y=(C*C-d*d)/4，间隔d越大，乘积越小)
+    O(n)
+    */
+    public static ArrayList<Integer> FindNumbersWithSum1(int [] array,int sum) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if (array.length == 0)
+            return arrayList;//注意不能返回空
+        int i=0,j=array.length-1;
+        while (i<j){
+            if (array[i]+array[j] == sum){
+                arrayList.add(array[i]);
+                arrayList.add(array[j]);
+                break;
+            }
+            if (array[i]+array[j] > sum)
+                j--;
+            if (array[i]+array[j] < sum)
+                i++;
+        }
+        return arrayList;
+    }
+
+    /*
+    【二】
+    */
+
+    /*
+    【三】
+     */
+
+
+    /*
+    【四】
+    */
 
     /*
     【五】连续子数组的最大和  ---simple---
@@ -228,12 +143,48 @@ public class BiArray {
         return sb.toString();
     }
 
+    /*
+    【七】和为S的连续正数序列
+    小明很喜欢数学,有一天他在做数学作业时,要求计算出9~16的和,他马上就写出了正确答案是100。
+    但是他并不满足于此,他在想究竟有多少种连续的正数序列的和为100(至少包括两个数)。
+    没多久,他就得到另一组连续正数和为100的序列:18,19,20,21,22。
+    现在把问题交给你,你能不能也很快的找出所有和为S的连续正数序列? Good Luck!
+    输出描述：输出所有和为S的连续正数序列。
+    序列内按照从小至大的顺序，序列间按照开始数字从小到大的顺序
+     */
+    /*
+    思路一：tcp滑动窗口思想应用
+    双指针技术,就是相当于有一个窗口，窗口的左右两边就是两个指针，我们根据窗口内值之和来确定窗口的位置和宽度。
+     */
+    public static ArrayList<ArrayList<Integer> > FindContinuousSequence(int sum) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        //两个起点，相当于动态窗口的两边，根据其窗口内的值的和来确定窗口的位置和大小
+        int plow = 1,phigh = 2;
+        while (phigh > plow){
+            //由于是连续的、差值为1的一个序列，则其求和公式为（a0+an）*n/2
+            int cur = (phigh+plow)*(phigh-plow+1)/2;
+            if (cur == sum){//相等则将窗口范围内的所有数值添加至结果集
+                ArrayList<Integer> list = new ArrayList<>();
+                for (int i =plow;i<=phigh;i++)
+                    list.add(i);
+                result.add(list);
+                plow++; //！！！phigh++同可
+            }else
+                if (cur < sum)//若当前窗口内的所有数值之和小于sum,则右窗口phigh右移一下
+                    phigh++;
+                else   //若当前窗口内的所有数值之和大于sum,则左窗口plow右移一下
+                    plow++;
+        }
+        return result;
+    }
+
     public static void main(String[] args){
-        int[] array = {3,32,321};
-//        System.out.println(MoreThanHalfNum(array));
-//        System.out.println(GetLeastNumbers1(array,4));
-//        System.out.println(FindGreatestSumOfSubArray(array));
-        System.out.println(PrintMinNumber(array));
+        int[] array = {1,2,3,4,5,6,7,8,9};
+        System.out.println(FindNumbersWithSum1(array,10));//【一】
+//        System.out.println(FindGreatestSumOfSubArray(array)); //【五】
+//        System.out.println(PrintMinNumber(array)); //【六】
+//        System.out.println(FindContinuousSequence(100));//【七】
+
 
     }
 

@@ -6,7 +6,7 @@ import java.util.Stack;
 《二叉树镜像》：操作给定的二叉树，将其变换为源二叉树的镜像
 参考：https://blog.csdn.net/xiaoxingxing1744/article/details/82782461
  */
-public class BinTreeMirror {
+public class BTMirror {
     /*
     非递归：栈空间 --- ①每次弹出栈顶元素，并判断该元素的左右孩子结点，做swap操作 ②结束条件为栈空间为空
     利用栈存放每次需要判断的结点（栈顶元素），将交换后的结点存入栈中，再在弹出时来交换其下子女结点

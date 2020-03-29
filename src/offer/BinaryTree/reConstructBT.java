@@ -12,7 +12,7 @@ package offer.BinaryTree;
  */
 //输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}
 
-public class reConstructBinaryTree {
+public class reConstructBT {
 
     public TreeNode ConstructBinaryTree(int [] pre,int [] in) {//,int[] post
         /*

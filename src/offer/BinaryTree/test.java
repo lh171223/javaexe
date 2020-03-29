@@ -19,16 +19,16 @@ public class test {
         System.out.println("in:" + Arrays.toString(in));
 
 
-        //重建二叉树 reConstructBinaryTree.class
-        reConstructBinaryTree root = new reConstructBinaryTree();
+        //重建二叉树 reConstructBT.class
+        reConstructBT root = new reConstructBT();
         TreeNode treeNode = root.ConstructBinaryTree(pre,in);
-        //遍历输出 TraverseBinTree.class
-        TraverseBinTree.postTraverseBinTree(treeNode);
+        //遍历输出 TraverseBT.class
+        TraverseBT.postTraverseBinTree(treeNode);
 
         //二叉树==>求和树
         SumTree.BinaryToSumTree(treeNode);
         //遍历输出
-        TraverseBinTree.inTraverseBinTree(treeNode);
+        TraverseBT.inTraverseBinTree(treeNode);
 
 
         //路径求和
