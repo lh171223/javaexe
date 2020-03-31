@@ -1,5 +1,7 @@
 package offer.LinkedList;
 
+import offer.BinaryTree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Stack;
@@ -18,7 +20,7 @@ import java.util.Stack;
  * 【七】删除链表中重复的结点
  *
  */
-public class LinkedListNode {
+public class ListList {
 
     /*
     【一】从尾到头打印链表
@@ -248,6 +250,63 @@ public class LinkedListNode {
             }
         }
         return head.next; //为什么不能直接返回pHead？返回pHead时链表结点均不变
+    }
+
+    /*
+    【八】孩子们的游戏（圆圈中最后剩下的数）
+    每年六一儿童节,牛客都会准备一些小礼物去看望孤儿院的小朋友,今年亦是如此。
+    HF作为牛客的资深元老,自然也准备了一些小游戏。其中,有个游戏是这样的:
+    首先,让小朋友们围成一个大圈。然后,他随机指定一个数m,让编号为0的小朋友开始报数。
+    每次喊到m-1的那个小朋友要出列唱首歌,然后可以在礼品箱中任意的挑选礼物,并且不再回到圈中,
+    从他的下一个小朋友开始,继续0...m-1报数....这样下去....
+    直到剩下最后一个小朋友,可以不用表演,并且拿到牛客名贵的“名侦探柯南”典藏版(名额有限哦!!^_^)。
+    请你试着想下,哪个小朋友会得到这份礼品呢？(注：小朋友的编号是从0到n-1)
+    如果没有小朋友，请返回-1
+     */
+    /*
+    思路一：
+    数学问题：约瑟夫环问题
+    约瑟夫环是一个数学的应用问题：已知n个人（以编号1，2，3...n分别表示）围坐在一张圆桌周围。
+    从编号为k的人开始报数，数到m的那个人出列；他的下一个人又从1开始报数，数到m的那个人又出列；
+    依此规律重复下去，直到圆桌周围的人全部出列。
+     */
+    public int LastRemaining(int n, int m) {//小朋友数1~n，报数1~m
+        if (n == 0 || m==0)
+            return -1;
+        int k =0;
+        for (int i=2;i<=n;i++){
+           k=(k+m)%i;
+        }
+        return k;
+    }
+    /*
+    思路二：循环链表实现
+     */
+    public int LastRemaining1(int n, int m) {//小朋友数1~n，报数1~m
+        ListNode head = new ListNode(0);
+        ListNode current = head;
+        for (int i=1;i<n;i++){
+            ListNode listNode = new ListNode(i);
+            current.next = listNode;
+            current = listNode;//将当前结点指向最后一个结点
+        }
+        //为了构建首尾相连的链表，将尾结点（当前指针）与头节点链接起来
+        current.next = head;
+        ListNode pre = current;//创建前结点，指向当前结点
+        current = current.next;//将当前指针指向头节点
+
+        int count = 0;
+        //一旦首尾相接，当前结点指向了自身，证明队列中只有一个用户了，跳出循环，游戏结束
+        while (current.next != current){
+            count++;
+            if (count == m){
+                pre.next = current.next;//删除第m个结点
+                count = 0;
+            }
+            pre = current;
+            current = current.next;
+        }
+        return current.val;
     }
 
 }

@@ -78,7 +78,7 @@ public class Sort {
             temp[i++] = arr[p1]<=arr[p2] ? arr[p1++]:arr[p2++];
         }
         //较短的数组遍历完成后，将较长数组的剩余部分全部填入新数组中
-        while (p1 <= mid) //若是合并链表，此处直接用if将指针指向剩余链表即可，具体可见offer/LinkedList/LinkedListNode【四】
+        while (p1 <= mid) //若是合并链表，此处直接用if将指针指向剩余链表即可，具体可见offer/LinkedList/ListList【四】
             temp[i++] = arr[p1++];
         while (p2 <= R)
             temp[i++] = arr[p2++];

@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d9282b-2695-455b-acd5-a5b40035f655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/Array/FindNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BalanceBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Character/RotateReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/Array/math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/Character/ChangeForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Array/BiArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Array/BiArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/BinSearchLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/BinTreeMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BTMirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Character/CharacStrSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Character/CharacStrSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Array/others.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/LinkedList/ListList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/LinkedList/ListCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/LinkedList/ComplexListCopy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,89 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BalanceBT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Array/FindNums.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#FindNumsAppearOnce#0;class#FindNums#0" />
-                <element signature="method#MoreThanHalfNum#0;class#FindNums#0" />
-                <element signature="method#MoreThanHalfNum1#0;class#FindNums#0" />
-                <element signature="method#GetLeastNumbers#0;class#FindNums#0" />
-                <element signature="method#minNumberInRotateArray#0;class#FindNums#0" />
-                <element signature="method#Find#0;class#FindNums#0" />
-                <element signature="method#Find1#0;class#FindNums#0" />
-                <element signature="method#Find2#0;class#FindNums#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Array/BiArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
-              <folding>
-                <element signature="method#FindGreatestSumOfSubArray#0;class#BiArray#0" />
-                <element signature="method#PrintMinNumber#0;class#BiArray#0" />
-                <element signature="method#FindContinuousSequence#0;class#BiArray#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Character/FindCharacter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/Character/RotateReverse.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/Character/ChangeForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="108" column="26" lean-forward="true" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#LeftRotateString#0;class#RotateReverse#0" />
-                <element signature="method#ReverseSentence#0;class#RotateReverse#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Character/CharacStrSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="342">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -155,10 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/offer/BinaryTree/SumTree.java" />
-        <option value="$PROJECT_DIR$/src/offer/BinaryTree/DifferPost.java" />
-        <option value="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/offer/matrixClockwisePrint.java" />
         <option value="$PROJECT_DIR$/src/offer/Matrix/test.java" />
         <option value="$PROJECT_DIR$/src/offer/Matrix/matrixClockwisePrint.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/binarySearch.java" />
@@ -190,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/offer/Character/CharacStr.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/offer/search/Find.java" />
-        <option value="$PROJECT_DIR$/src/offer/Array/others.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/FindCharacter.java" />
         <option value="$PROJECT_DIR$/src/offer/Array/Inverse.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/BinTreeMirror.java" />
@@ -206,6 +118,11 @@
         <option value="$PROJECT_DIR$/src/offer/Character/CharacStrSort.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/RotateString.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/RotateReverse.java" />
+        <option value="$PROJECT_DIR$/src/offer/LinkedList/ComplexListCopy.java" />
+        <option value="$PROJECT_DIR$/src/offer/LinkedList/ListList.java" />
+        <option value="$PROJECT_DIR$/src/offer/Array/others.java" />
+        <option value="$PROJECT_DIR$/src/offer/Array/math.java" />
+        <option value="$PROJECT_DIR$/src/offer/Character/ChangeForm.java" />
       </list>
     </option>
   </component>
@@ -220,6 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,34 +162,18 @@
               <item name="javaexe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
               <item name="Character" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585456078874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585568954725" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -306,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateReverse">
+  <component name="RunManager" selected="Application.ChangeForm">
     <configuration name="BiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.Array.BiArray" />
       <module name="javaexe" />
@@ -320,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Character.FindCharacter" />
+    <configuration name="ChangeForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Character.ChangeForm" />
       <module name="javaexe" />
       <extension name="coverage">
         <pattern>
@@ -346,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Array.Inverse" />
+    <configuration name="RotateReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Character.RotateReverse" />
       <module name="javaexe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.Array.*" />
+          <option name="PATTERN" value="offer.Character.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.Character.RotateReverse" />
+    <configuration name="math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Array.math" />
       <module name="javaexe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.Character.*" />
+          <option name="PATTERN" value="offer.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,11 +442,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChangeForm" />
+        <item itemvalue="Application.math" />
         <item itemvalue="Application.RotateReverse" />
         <item itemvalue="Application.BiArray" />
         <item itemvalue="Application.FindNums" />
-        <item itemvalue="Application.Inverse" />
-        <item itemvalue="Application.FindCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -619,12 +522,14 @@
       <workItem from="1585199874823" duration="6473000" />
       <workItem from="1585273137690" duration="17247000" />
       <workItem from="1585365433209" duration="26400000" />
-      <workItem from="1585446336906" duration="2885000" />
+      <workItem from="1585446336906" duration="6037000" />
+      <workItem from="1585543880499" duration="9068000" />
+      <workItem from="1585623691917" duration="287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379900000" />
+    <option name="totallyTimeSpent" value="392407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,10 +541,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="0" width="718" height="728" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33030304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20048505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -648,20 +553,20 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.25671142" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.14593698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.14261745" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.36981758" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012126" side_tool="true" weight="0.4884547" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4987874" weight="0.14262024" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4987874" weight="0.51077944" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.40464345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -715,7 +620,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/DifferPost.java" />
     <entry file="jar://D:/softwares/cs/java/jdk/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -834,40 +738,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/RandomListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataStructure/SortTest.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/CharacterString.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/softwares/cs/java/jdk/src.zip!/java/util/DualPivotQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -882,19 +754,6 @@
           <folding>
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/LinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="232" column="41" selection-start-line="232" selection-start-column="41" selection-end-line="232" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#printListFromTailToHead#0;class#LinkedListNode#0" />
-            <element signature="method#printListFromTailToHead1#0;class#LinkedListNode#0" />
-            <element signature="method#IsLoop#0;class#LinkedListNode#0" />
           </folding>
         </state>
       </provider>
@@ -1012,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Array/others.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/softwares/cs/java/jdk/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -1080,17 +932,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Array/BiArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
+          <folding>
+            <element signature="method#FindGreatestSumOfSubArray#0;class#BiArray#0" />
+            <element signature="method#PrintMinNumber#0;class#BiArray#0" />
+            <element signature="method#FindContinuousSequence#0;class#BiArray#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Character/CharacStrSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Character/RotateReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#LeftRotateString#0;class#RotateReverse#0" />
+            <element signature="method#ReverseSentence#0;class#RotateReverse#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BalanceBT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="891">
           <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Array/FindNums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="301">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#FindNumsAppearOnce#0;class#FindNums#0" />
@@ -1105,41 +988,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Array/BiArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
-          <folding>
-            <element signature="method#FindGreatestSumOfSubArray#0;class#BiArray#0" />
-            <element signature="method#PrintMinNumber#0;class#BiArray#0" />
-            <element signature="method#FindContinuousSequence#0;class#BiArray#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Character/FindCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="104">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Character/CharacStrSort.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/RandomListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Character/RotateReverse.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ComplexListCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="108" column="26" lean-forward="true" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+        <state relative-caret-position="27">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#LeftRotateString#0;class#RotateReverse#0" />
-            <element signature="method#ReverseSentence#0;class#RotateReverse#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="274" column="22" lean-forward="true" selection-start-line="274" selection-start-column="22" selection-end-line="274" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/LinkedList/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Array/math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="method#GetUglyNumber#0;class#others#0" />
+            <element signature="method#Sum_Solution#0;class#others#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Character/ChangeForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>

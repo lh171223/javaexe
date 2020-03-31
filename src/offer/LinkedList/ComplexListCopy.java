@@ -26,7 +26,7 @@ import java.util.Scanner;
 3. 拆分链表，将链表分为原链表和复制后的链表
  */
 
-public class ListCopy {
+public class ComplexListCopy {
     public RandomListNode Clone(RandomListNode pHead)
     {
         if (pHead == null)
