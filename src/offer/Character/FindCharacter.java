@@ -39,9 +39,7 @@ public class FindCharacter {
         return -1;
     }
 
-    /*
-    【二】
-     */
+
 
 
     public static void main(String[] args){
