@@ -1,7 +1,5 @@
 package offer.BinaryTree;
 
-import java.util.Arrays;
-import java.util.Scanner;
 /*
 Definition for binary tree
 放在其他类中，可以写成内部静态类

@@ -14,21 +14,23 @@ import java.util.Stack;
  * @version 1.0
  * @date 2020/3/21 16:38
  *
- * 《二叉搜索树与双向链表》
- * 输入一棵二叉搜索树
- * 将该二叉搜索树转换成一个排序的双向链表。
- * 要求不能创建任何新的结点，只能调整树中结点指针的指向。
+ * 【一】二叉搜索树与双向链表
+ * 【二】二叉搜索树的第k个结点
  */
-/*
 
-解题思路：
-二叉搜索树中序遍历后是一个递增的序列（中序遍历非递归方法借助栈）
-中序遍历的每一个结点都双向指向
-
-双向链表怎么编程实现双向指向？？？ ---  创建一个前结点：找到第一个（最小的）结点，将其作为前结点
-修改当前遍历结点与前一遍历结点的指针指向
- */
 public class BSearchT {
+
+    /*
+    【一】二叉搜索树与双向链表
+    输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。
+    要求不能创建任何新的结点，只能调整树中结点指针的指向。
+    解题思路：
+    二叉搜索树中序遍历后是一个递增的序列（中序遍历非递归方法借助栈）
+    中序遍历的每一个结点都双向指向
+
+    双向链表怎么编程实现双向指向？？？ ---  创建一个前结点：找到第一个（最小的）结点，将其作为前结点
+    修改当前遍历结点与前一遍历结点的指针指向
+    */
     public TreeNode Convert(TreeNode pRootOfTree) {
         if (pRootOfTree == null)
             return null;
@@ -57,4 +59,61 @@ public class BSearchT {
         }
         return pRootOfTree;
     }
+
+    /*
+    【二】二叉搜索树的第k个结点
+    给定一棵二叉搜索树，请找出其中的第k小的结点。
+    例如，（5，3，7，2，4，6，8）中，按结点数值大小顺序第三小结点的值为4。
+     */
+    /*
+    思路
+    中序遍历---递增序列---输出第k个
+     */
+    //28ms -- 9784k
+    TreeNode KthNode(TreeNode pRoot, int k)
+    {
+        if (pRoot == null || k==0)
+            return null;
+        Stack<TreeNode> stack = new Stack<>();
+        int count = 0;
+        while (pRoot!=null || !stack.isEmpty()){
+            while (pRoot!=null){
+                stack.push(pRoot);
+                pRoot = pRoot.left;
+            }
+            if (!stack.isEmpty()){
+                pRoot = stack.pop();
+                count++;
+                if (count == k){
+                    return pRoot;
+                }
+                pRoot = pRoot.right;
+            }
+        }
+        return null;
+    }
+    //33ms -- 9596k
+    TreeNode KthNode1(TreeNode pRoot, int k)
+    {
+        if (pRoot == null || k==0)
+            return null;
+        Stack<TreeNode> stack = new Stack<>();
+        int count = 0;
+        while (pRoot!=null || !stack.isEmpty()){
+            if  (pRoot!=null){
+                stack.push(pRoot);
+                pRoot = pRoot.left;
+            }else {
+                pRoot = stack.pop();
+                count++;
+                if (count == k)
+                    return pRoot;
+                pRoot = pRoot.right;
+            }
+        }
+        return null;
+    }
+
+
+
 }

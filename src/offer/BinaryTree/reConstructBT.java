@@ -28,7 +28,7 @@ public class reConstructBT {
     }
 
     //前+中 ==》重建
-    private TreeNode reConstruct(int[] pre,int preStart,int preEnd,int[] in,int inStart,int inEnd){
+    public TreeNode reConstruct(int[] pre,int preStart,int preEnd,int[] in,int inStart,int inEnd){
         //判空
         if(preStart>preEnd | inStart>inEnd){
             return null;
