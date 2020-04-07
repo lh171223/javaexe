@@ -7,11 +7,11 @@ import java.util.*;
  * @date 2020/3/22 12:49
  *
  * 【一】和为S的两个数字
- * 【二】
- * 【三】
+ * 【二】连续子数组的最大和  ---simple---
+ * 【三】把数组排成最小的数  --complex---
  * 【四】
- * 【五】连续子数组的最大和  ---simple---
- * 【六】把数组排成最小的数  --complex---
+ * 【五】
+ * 【六】滑动窗口的最大值
  * 【七】和为S的连续正数序列  --simple complex-- tcp滑动窗口的应用
  *
  */
@@ -77,20 +77,7 @@ public class BiArray {
     }
 
     /*
-    【二】
-    */
-
-    /*
-    【三】
-     */
-
-
-    /*
-    【四】
-    */
-
-    /*
-    【五】连续子数组的最大和  ---simple---
+    【二】连续子数组的最大和  ---simple---
     HZ偶尔会拿些专业问题来忽悠那些非计算机专业的同学。
     今天测试组开完会后,他又发话了:
     在古老的一维模式识别中,常常需要计算连续子向量的最大和,
@@ -115,7 +102,7 @@ public class BiArray {
     }
 
     /*
-    【六】把数组排成最小的数  --complex---
+    【三】把数组排成最小的数  --complex---
     输入一个正整数数组，
     把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
     例如输入数组{3，32，321}，则打印出这三个数字能排成的最小数字为321323。
@@ -141,6 +128,36 @@ public class BiArray {
         for (int i=0;i<numbers.length;i++)
             sb.append(str[i]);
         return sb.toString();
+    }
+
+
+    /*
+    【六】滑动窗口的最大值
+    给定一个数组和滑动窗口的大小，找出所有滑动窗口里数值的最大值。
+    例如，如果输入数组{2,3,4,2,6,2,5,1}及滑动窗口的大小3，那么一共存在6个滑动窗口，
+    他们的最大值分别为{4,4,6,6,6,5}； 针对数组{2,3,4,2,6,2,5,1}的滑动窗口有以下6个：
+    {[2,3,4],2,6,2,5,1}， {2,[3,4,2],6,2,5,1}， {2,3,[4,2,6],2,5,1}， {2,3,4,[2,6,2],5,1}， {2,3,4,2,[6,2,5],1}， {2,3,4,2,6,[2,5,1]}。
+     */
+    /*
+    思路：
+    滑动窗口个数 = 数组长度 - （滑动窗口大小-1）
+    依次从头开始遍历数组，直至剩下最后 滑动窗口大小-1 的元素个数无需遍历；0~num.length-size
+    例如：{2,3,4,2,6,2,5,1}
+    数组长度为8，滑动窗口大小为3，当遍历到数组元素2时，后续元素个数不能满足滑动窗口大小，因为仅遍历至此，其下表即为8-3=5
+     */
+    public static ArrayList<Integer> maxInWindows(int [] num, int size)
+    {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if (num.length==0 || size==0)
+            return arrayList;
+        for (int i=0;i<=num.length-size;i++){
+            int temp = num[i];
+            for (int j=i+1;j<=i+size-1;j++){
+                 temp = temp >= num[j] ? temp:num[j];
+            }
+            arrayList.add(temp);
+        }
+        return arrayList;
     }
 
     /*
@@ -179,10 +196,11 @@ public class BiArray {
     }
 
     public static void main(String[] args){
-        int[] array = {1,2,3,4,5,6,7,8,9};
-        System.out.println(FindNumbersWithSum1(array,10));//【一】
-//        System.out.println(FindGreatestSumOfSubArray(array)); //【五】
-//        System.out.println(PrintMinNumber(array)); //【六】
+        int[] array = {2,3,4,2,6,2,5,1};
+//        System.out.println(FindNumbersWithSum1(array,10));//【一】
+//        System.out.println(FindGreatestSumOfSubArray(array)); //【二】
+//        System.out.println(PrintMinNumber(array)); //【三】
+          System.out.println(maxInWindows(array,3));//【六】
 //        System.out.println(FindContinuousSequence(100));//【七】
 
 

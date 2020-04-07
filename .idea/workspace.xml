@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d9282b-2695-455b-acd5-a5b40035f655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BTForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TreeLinkNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/BinaryTree/otherBT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/BTMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/BTMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Array/BiArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Array/BiArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Array/math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Array/math.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/PathSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Character/ChangeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Character/ChangeForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/Character/FindCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Character/FindCharacter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,86 +34,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/Character/ChangeForm.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/Array/BiArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+            <state relative-caret-position="324">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
-                <element signature="method#StrToInt#0;class#ChangeForm#0" />
-                <element signature="method#multiply#0;class#ChangeForm#0" />
-                <element signature="e#1990#1991#0" expanded="true" />
-                <element signature="e#2017#2018#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/otherBT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
-              <caret line="97" column="51" lean-forward="true" selection-start-line="97" selection-start-column="51" selection-end-line="97" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#GetNext#0;class#otherBT#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BTForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#FindNumbersWithSum#0;class#BiArray#0" />
+                <element signature="method#FindNumbersWithSum1#0;class#BiArray#0" />
+                <element signature="method#FindGreatestSumOfSubArray#0;class#BiArray#0" />
+                <element signature="method#PrintMinNumber#0;class#BiArray#0" />
+                <element signature="method#maxInWindows#0;class#BiArray#0" />
+                <element signature="method#FindContinuousSequence#0;class#BiArray#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/Array/math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+            <state relative-caret-position="243">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#GetUglyNumber#0;class#math#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/reConstructBT.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/TraverseBT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="178" column="25" lean-forward="true" selection-start-line="178" selection-start-column="25" selection-end-line="178" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/TreeLinkNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
+                <element signature="method#TreeDepth#0;class#DFSBFS#0" />
+                <element signature="method#TreeDepth1#0;class#DFSBFS#0" />
+                <element signature="method#getPaths#0;class#DFSBFS#0" />
+                <element signature="method#hasPath#0;class#DFSBFS#0" />
               </folding>
             </state>
           </provider>
@@ -143,6 +93,7 @@
     <findStrings>
       <find>广度</find>
       <find>FindGreatestSumOfSubArray</find>
+      <find>滑动窗口</find>
       <find>PrintMinNumber</find>
     </findStrings>
     <dirStrings>
@@ -186,31 +137,31 @@
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBinTree.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/test.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/BalanceBT.java" />
-        <option value="$PROJECT_DIR$/src/offer/Array/BiArray.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/CharacStrSort.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/RotateString.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/RotateReverse.java" />
         <option value="$PROJECT_DIR$/src/offer/LinkedList/ComplexListCopy.java" />
         <option value="$PROJECT_DIR$/src/offer/LinkedList/ListList.java" />
         <option value="$PROJECT_DIR$/src/offer/Array/others.java" />
-        <option value="$PROJECT_DIR$/src/offer/Array/math.java" />
         <option value="$PROJECT_DIR$/src/offer/Array/FindNums.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/ChangeForm.java" />
         <option value="$PROJECT_DIR$/src/offer/Character/FindCharacter.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/TraverseBT.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/BTMirror.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/otherBT.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/reConstructBT.java" />
-        <option value="$PROJECT_DIR$/src/offer/BinaryTree/BTForm.java" />
         <option value="$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java" />
+        <option value="$PROJECT_DIR$/src/offer/BinaryTree/BTForm.java" />
+        <option value="$PROJECT_DIR$/src/offer/Array/BiArray.java" />
+        <option value="$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java" />
+        <option value="$PROJECT_DIR$/src/offer/Array/math.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="874" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="873" />
     <option name="y" value="9" />
     <option name="width" value="1077" />
     <option name="height" value="1092" />
@@ -221,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +195,13 @@
               <item name="javaexe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaexe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaexe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="offer" type="462c0819:PsiDirectoryNode" />
               <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,12 +216,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585990733530" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586174663157" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -300,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChangeForm">
+  <component name="RunManager" selected="Application.math">
     <configuration name="BiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offer.Array.BiArray" />
       <module name="javaexe" />
@@ -533,11 +491,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.math" />
+        <item itemvalue="Application.BiArray" />
         <item itemvalue="Application.ChangeForm" />
         <item itemvalue="Application.FindNums" />
-        <item itemvalue="Application.math" />
         <item itemvalue="Application.RotateReverse" />
-        <item itemvalue="Application.BiArray" />
       </list>
     </recent_temporary>
   </component>
@@ -617,12 +575,14 @@
       <workItem from="1585543880499" duration="9068000" />
       <workItem from="1585623691917" duration="7363000" />
       <workItem from="1585880988154" duration="17889000" />
-      <workItem from="1585963516455" duration="22058000" />
+      <workItem from="1585963516455" duration="23456000" />
+      <workItem from="1586051971739" duration="2627000" />
+      <workItem from="1586135376956" duration="19160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439430000" />
+    <option name="totallyTimeSpent" value="462615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,10 +594,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="6" width="718" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13419564" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3181818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -646,12 +605,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.25167784" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.17578773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.104477614" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.35323384" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012126" side_tool="true" weight="0.4884547" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -948,54 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Array/math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="method#GetUglyNumber#0;class#others#0" />
-            <element signature="method#Sum_Solution#0;class#others#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Array/FindNums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="218" column="42" lean-forward="true" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#FindNumsAppearOnce#0;class#FindNums#0" />
-            <element signature="method#MoreThanHalfNum#0;class#FindNums#0" />
-            <element signature="method#MoreThanHalfNum1#0;class#FindNums#0" />
-            <element signature="method#GetLeastNumbers#0;class#FindNums#0" />
-            <element signature="method#minNumberInRotateArray#0;class#FindNums#0" />
-            <element signature="method#Find#0;class#FindNums#0" />
-            <element signature="method#Find1#0;class#FindNums#0" />
-            <element signature="method#Find2#0;class#FindNums#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Array/BiArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="method#FindGreatestSumOfSubArray#0;class#BiArray#0" />
-            <element signature="method#PrintMinNumber#0;class#BiArray#0" />
-            <element signature="method#FindContinuousSequence#0;class#BiArray#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Array/Inverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Character/CharacStrSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1059,13 +970,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/PathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/PathSum.java" />
     <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/SumTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1077,18 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TreeDepth#0;class#DFSBFS#0" />
-            <element signature="method#TreeDepth1#0;class#DFSBFS#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,16 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BTForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/otherBT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2214">
@@ -1152,10 +1035,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BTForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Array/FindNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2569">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#FindNumsAppearOnce#0;class#FindNums#0" />
+            <element signature="method#MoreThanHalfNum#0;class#FindNums#0" />
+            <element signature="method#MoreThanHalfNum1#0;class#FindNums#0" />
+            <element signature="method#GetLeastNumbers#0;class#FindNums#0" />
+            <element signature="method#minNumberInRotateArray#0;class#FindNums#0" />
+            <element signature="method#Find#0;class#FindNums#0" />
+            <element signature="method#Find1#0;class#FindNums#0" />
+            <element signature="method#Find2#0;class#FindNums#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Array/Inverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Character/ChangeForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="174">
+          <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
           <folding>
             <element signature="method#StrToInt#0;class#ChangeForm#0" />
             <element signature="method#multiply#0;class#ChangeForm#0" />
@@ -1165,12 +1093,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/BSearchT.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/Array/BiArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="method#FindNumbersWithSum#0;class#BiArray#0" />
+            <element signature="method#FindNumbersWithSum1#0;class#BiArray#0" />
+            <element signature="method#FindGreatestSumOfSubArray#0;class#BiArray#0" />
+            <element signature="method#PrintMinNumber#0;class#BiArray#0" />
+            <element signature="method#maxInWindows#0;class#BiArray#0" />
+            <element signature="method#FindContinuousSequence#0;class#BiArray#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/BinaryTree/DFSBFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="178" column="25" lean-forward="true" selection-start-line="178" selection-start-column="25" selection-end-line="178" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#TreeDepth#0;class#DFSBFS#0" />
+            <element signature="method#TreeDepth1#0;class#DFSBFS#0" />
+            <element signature="method#getPaths#0;class#DFSBFS#0" />
+            <element signature="method#hasPath#0;class#DFSBFS#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/Array/math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="method#GetUglyNumber#0;class#math#0" />
           </folding>
         </state>
       </provider>

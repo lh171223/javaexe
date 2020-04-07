@@ -10,6 +10,8 @@ import java.util.ArrayList;
  * 【一】丑数  --complex---
  * 【二】进制转换：求1+2+3+...+n
  * 【三】进制转化：不用加减乘除做加法
+ * 【四】进制转化：数据流中的中位数
+ * 【五】贪心：剪绳子
  */
 public class math {
 
@@ -72,10 +74,99 @@ public class math {
         return num1;
     }
 
+    /*
+    【四】进制转化：数据流中的中位数
+    如何得到一个数据流中的中位数？
+    如果从数据流中读出奇数个数值，那么中位数就是所有数值排序之后位于中间的数值。
+    如果从数据流中读出偶数个数值，那么中位数就是所有数值排序之后中间两个数的平均值。
+    我们使用Insert()方法读取数据流，使用GetMedian()方法获取当前读取数据的中位数。
+     */
+//    public void Insert(Integer num) {
+//
+//    }
+//
+//    public Double GetMedian() {
+//
+//    }
+
+    /*
+    【五】剪绳子
+     给你一根长度为n的绳子，请把绳子剪成整数长的m段（m、n都是整数，n>1并且m>1），
+     每段绳子的长度记为k[0],k[1],...,k[m]。请问k[0]xk[1]x...xk[m]可能的最大乘积是多少？
+     例如，当绳子的长度是8时，我们把它剪成长度分别为2、3、3的三段，此时得到的最大乘积是18。
+     输入描述：输入一个数n，意义见题面。（2 <= n <= 60）
+     例子：输入8，输出18
+     */
+    /*
+    思路：贪心算法 --- 局部最优解
+    采用自顶向下、以迭代的方法做出相继选择，每做一次贪心选择就将所求问题
+    简化为一个规模更小的子问题。
+    递归、动态规划
+     */
+    /*
+    为哈？
+     */
+    public static int cutRope(int target) { //输入长度
+        if (target == 0)
+            return 0;
+        if (target<=3 && target>0)
+            return target-1;
+        int result =1;//乘积
+        while (target>4){
+            target -= 3;//平均每段减去1，直至无法再均摊时？
+            result *= 3;
+        }
+        return result*target;
+    }
+
+    /*
+    思路：数学规律
+    4 ： 2*2
+    5 ： 2*3
+    6 ： 3*3
+    7 ： 2*2*3 或 4*3
+    8 ： 2*3*3
+    9 ： 3*3*3
+    10 ： 2*2*3*3 或 4*3*3
+    11 ： 2*3*3*3
+    12 ： 3*3*3*3
+    13 ： 2*2*3*3*3 或 4*3*3*3
+
+    分析：
+    由上可知，k[0]~k[m]只可能是2或3（4=2*2）；
+    5：2*3，6：3*3，则比6更大的数字会继续细分；
+    由6：2*2*2<3*3可知，2的数量肯定小于3的数量；
+    使用n除以3，根据余数判断2的数量即可
+    特殊情况：2：1*1 ；3：2*1 （m>1）
+
+    乘方运算的复杂度：O(logN)
+     */
+    public static int cutRope1(int target) { //输入长度
+        if (target == 2)
+            return 1;
+        if (target == 3)
+            return 2;
+        int x = target%3;//余数，用以判断2的个数
+        int y = target/3;//3的个数
+        if (x == 0)//没有2
+            return (int)Math.pow(3,y);
+        else
+            if (x == 1)//有两个2,如4,7
+                return 2*2*(int)Math.pow(3,y-1);
+            else  //一个2，如8
+                return 2*(int)Math.pow(3,y);
+    }
+
+
+
+
+
+
     public static void main(String[] args){
 //        System.out.println(GetUglyNumber(10)); //【一】
 //        System.out.println(Sum(100));//【二】
-        System.out.println(Add(5,7));//【三】
+//        System.out.println(Add(5,7));//【三】
+        System.out.println(cutRope(8));
     }
 
 }
