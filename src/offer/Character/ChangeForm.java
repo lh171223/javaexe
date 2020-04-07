@@ -7,7 +7,7 @@ package offer.Character;
  *
  * 【一】把字符串转换成整数  --未写完
  * 【二】构建乘积数组
- * 【三】正则表达式匹配
+ * 【三】正则表达式匹配  --- complex ---
  * 【四】表示数值的字符串
  */
 public class ChangeForm {
@@ -23,24 +23,55 @@ public class ChangeForm {
     2147483647
     0
      */
+    /*越界的简单解决方案：让符号位参与运算，并合理利用 INT_MAX/10
+    参考：https://blog.nowcoder.net/n/eb66593eb79a4428a72e385adcfce6dd?f=comment
+     */
     public static int StrToInt(String str) {
         if (str.equals("") || str.length() ==0)
             return 0;
-        char[] chars = str.toCharArray();
-        int flag = 0;
-        if (chars[0] == '-')
-            flag = 1;
+        int flag = 1;//数值化正负标记位
+        int overValue =0;//判断是否越界
+        if (str.charAt(0) == '-')
+            flag = -1;
         int sum = 0;
-        for (int i= flag;i<chars.length;i++){//第一位考虑正负号
-            if (chars[i] == '+')
-                continue;
-            if (chars[i]<48 || chars[i]>57)//非数值情况 单位数值：0~9
+        for (int i= (str.charAt(0)=='-'||str.charAt(0)=='+')?1:0;i<str.length();i++){//第一位考虑正负号
+            if (str.charAt(i)<48 || str.charAt(i)>57)//非数值情况 单位数值：0~9
                 return 0;
-            sum = sum*10 + chars[i]-48;
+            overValue = flag*sum - 0x7FFFFFFF/10+(((flag+1)/2+str.charAt(i)-48>8)?1:0);
+            if (overValue>0)
+                return 0;
+            sum = sum*10 + flag*(str.charAt(i)-48);//①让符号位参与运算
         }
-        //考虑溢出 --- 未写完
-        
-        return flag==0 ? sum : sum*(-1);
+        //考虑溢出 -2147483648~2147483647，即是int [-2^31,2^31-1]
+        //0x7FFFFFFF：除首位0外，其余都是1，最大的int整型数（0表示是整数）；0x80000000：除首位为1，其余均为0（负数）
+        //最大正数的绝对值小于最小负数绝对值，所以当值为 INT_MIN 时，将导致结果出错
+        return sum;
+    }
+
+    public static int StrToInt1(String str) {
+        int length = str.length();
+        int isNegtive = 1, overValue = 0;
+        int digit = 0, value = 0;
+
+        if (length == 0) return 0;
+        else {
+            int idx = 0;
+            if (str.charAt(0)== '-') { isNegtive = -1; idx = 1;}
+            else if (str.charAt(0)== '+') {idx = 1;}
+
+            for (; idx<length; idx++) {
+                digit = str.charAt(idx)-'0';
+                // overValue表示本轮循环是否会越界
+                overValue = isNegtive*value - 0x7FFFFFFF/10
+                        + (((isNegtive+1)/2 + digit > 8) ? 1:0);
+
+                if (digit<0 || digit>9) return 0;
+                else if (overValue > 0) return 0;
+
+                value = value*10 + isNegtive*digit;
+            }
+            return value;
+        }
     }
 
     /*
@@ -76,10 +107,49 @@ public class ChangeForm {
     在本题中，匹配是指字符串的所有字符匹配整个模式。
     例如，字符串"aaa"与模式"a.a"和"ab*ac*a"匹配，但是与"aa.a"和"ab*a"均不匹配
      */
+    /*
+    匹配下一个字符，则存在匹配成功或失败。
+    考虑pattern下一个字符可能是'*'，分两种情况讨论：即下一个字符是'*'还是不是
+    1.不是时，直接匹配当前字符。成功则继续，否则返回false（成功情况：①当前字符为'.' ②两个字符相同）
+    2.是时，‘*’可以代表0个或多个
+    ①匹配0个时，当前字符不变，pattern当前字符后移两位，跳过这个'*'字符（无需用到此符号）
+    ②匹配1个或多个时，str当前字符移向下一个，pattern当前字符不变。直到回到了上边的情况①；
+    当匹配多余一个字符时，相当于从str的下一个字符继续开始匹配
+     */
     public boolean match(char[] str, char[] pattern)
     {
-        return true;
+        if (str == null || pattern==null)
+            return false;
+        int strIndex = 0;
+        int pattIndex =0;
+        return matchCore(str,strIndex,pattern,pattIndex);
     }
+
+    private boolean matchCore(char[] str,int strIndex,char[] pattern,int pattIndex){
+        //有效性检验
+        if (strIndex == str.length && pattIndex == pattern.length)
+            return true;
+        //pattern先到尾，匹配失败
+        if (strIndex != str.length && pattIndex == pattern.length)
+            return false;
+        //情况2：模式的第2个字符是'*'。若第1个字符匹配成功，则分3种匹配模式
+        if (pattIndex+1<pattern.length && pattern[pattIndex+1]=='*') {
+            if ((strIndex != str.length && pattern[pattIndex] == str[strIndex]) ||
+                    (pattern[pattIndex] == '.' && strIndex != str.length)) {
+                return matchCore(str, strIndex, pattern, pattIndex + 2)//匹配0个字符，模式后移2
+                        || matchCore(str, strIndex + 1, pattern, pattIndex + 2)//匹配1个字符
+                        || matchCore(str, strIndex + 1, pattern, pattIndex);//*匹配多个：匹配1个，再匹配str中的下一个
+            }
+            else //若字符串第1个字符跟模式第1个字符匹配不成功，则模式后移2个字符，继续匹配
+                return matchCore(str, strIndex, pattern, pattIndex + 2);
+        }
+        //情况1：模式的第2个字符不是'*'，且第1个字符匹配成功，则均后移1位，否则返回false
+        if ((strIndex!=str.length && pattern[pattIndex]==str[strIndex])
+        || (pattern[pattIndex]=='.' && strIndex!=str.length))
+            return matchCore(str,strIndex+1,pattern,pattIndex+1);
+        return false;
+    }
+
 
     /*
     【四】表示数值的字符串
@@ -137,10 +207,10 @@ public class ChangeForm {
     }
 
     public static void main(String[] agrs){
-//        System.out.println(StrToInt("-2147483649"));//【一】
-        String str = "-1E-16";
-        char[] chars = str.toCharArray();
-        System.out.println(isNumeric(chars));
+        System.out.println(StrToInt("-2147483649"));//【一】
+//        String str = "-1E-16";
+//        char[] chars = str.toCharArray();
+//        System.out.println(isNumeric(chars));
     }
 
 }

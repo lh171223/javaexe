@@ -1,6 +1,8 @@
 package offer.Array;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 /**
  * @author lh
@@ -10,7 +12,7 @@ import java.util.ArrayList;
  * 【一】丑数  --complex---
  * 【二】进制转换：求1+2+3+...+n
  * 【三】进制转化：不用加减乘除做加法
- * 【四】进制转化：数据流中的中位数
+ * 【四】进制转化：数据流中的中位数  --complex  优先队列PriorityQueue
  * 【五】贪心：剪绳子
  */
 public class math {
@@ -75,19 +77,62 @@ public class math {
     }
 
     /*
-    【四】进制转化：数据流中的中位数
+    【四】进制转化：数据流中的中位数  --complex
     如何得到一个数据流中的中位数？
     如果从数据流中读出奇数个数值，那么中位数就是所有数值排序之后位于中间的数值。
     如果从数据流中读出偶数个数值，那么中位数就是所有数值排序之后中间两个数的平均值。
     我们使用Insert()方法读取数据流，使用GetMedian()方法获取当前读取数据的中位数。
      */
-//    public void Insert(Integer num) {
-//
-//    }
-//
-//    public Double GetMedian() {
-//
-//    }
+    /*
+    思路：
+    利用优先队列，构建两个顶堆，大顶堆存放小数据，小顶堆存放大数据
+    奇数存入大顶堆，所以到数值个数为奇数个时，大顶堆直接弹出的即是中位数
+     */
+    private int count = 0;//计算
+    private PriorityQueue<Integer> low = new PriorityQueue<>();
+    // 默认维护小顶堆??? 此处比较器Comparator未看懂
+    private PriorityQueue<Integer> high = new PriorityQueue<>(new Comparator<Integer>() {
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            return o2.compareTo(o1);
+        }
+    });
+
+    public void Insert(Integer num) {
+        count++;
+        if ((count & 1) == 1){
+            /*
+            奇数时,存放至大顶堆
+            但由于小顶堆存放的是后半段大的数，而此时不知道num与小顶堆的关系
+            所以，若当前值num比小顶堆上堆顶的数更大时,
+            存入小顶堆，并把小顶堆中最小的放入大顶堆，因为大顶堆存放前半段
+             */
+            if (!low.isEmpty() && num>low.peek()){
+                low.offer(num);
+                num = low.poll();
+            }
+            high.offer(num);
+        }else{
+                /*
+                偶数时，此时需要存放的是小的数
+                小数存入大顶堆，大数弹出并存入小顶堆
+                 */
+            if (!high.isEmpty() && num<high.peek()){
+                high.offer(num);
+                num = high.poll();
+            }
+            low.offer(num);
+        }
+    }
+
+    public Double GetMedian() {
+        double result;
+        if ((count&1)==1)
+            result = high.peek();
+        else
+            result = (high.peek()+low.peek())/2.0;
+        return result;
+    }
 
     /*
     【五】剪绳子
