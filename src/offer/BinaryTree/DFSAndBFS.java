@@ -74,7 +74,7 @@ public class DFSAndBFS {
 
     }
 
-    //深度优先遍历，非递归算法
+    //深度优先遍历，非递归算法（含回溯思想）
     private void DFS(DFSAndBFS g){
         boolean[] visited = new boolean[numVertexes];
         Stack<Integer> stack =new Stack<Integer>();

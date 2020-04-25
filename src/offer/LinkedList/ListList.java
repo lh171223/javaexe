@@ -82,6 +82,8 @@ public class ListList {
     【三】反转链表
     输入一个链表，反转链表后，输出新链表的表头。
     解题：直接控制指针的指向（控制指向一般就需要创建多个结点来辅助）
+    思路过程：直接将当前指针结点与前结点两两指向互换，并在过程中首先创建一个辅助指针来保存着后续链表，
+    完成后依次将当前指针和前指针后移一位，直至当前指针的下一个结点为空时跳出循环
      */
     public ListNode ReverseList(ListNode head) {
         if(head == null)
@@ -207,7 +209,7 @@ public class ListList {
         //使用快慢指针，快指针每次两步，慢指针每次一步（借鉴数学相向的相遇问题，不同速度有环必定相遇）
         boolean isloop = false;
         slowPointer = fastPointer = head;
-        while (fastPointer != null && fastPointer.next != null){
+        while (fastPointer != null && fastPointer.next != null){//如果无环，肯定是快指针提前到终点
             slowPointer = slowPointer.next;
             fastPointer = fastPointer.next.next;
 
